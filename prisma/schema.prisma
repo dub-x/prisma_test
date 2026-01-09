@@ -1,4 +1,3 @@
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,19 +7,18 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-model Book{
-    id String @id @default(uuid())
-    date_of_creation DateTime @default(now())
-    email String
-    url String @unique
-    tel String
-    age Int
-    color String
-    okey String @unique
-    city String
-    author String
-    number_of_pages Int
-    number_of_chapters Int
-    number_of_published_books Int
+model Book {
+  id                        String   @id @default(uuid())
+  date_of_creation          DateTime @default(now())
+  email                     String
+  url                       String   @unique
+  tel                       String
+  age                       Int
+  color                     String
+  okey                      String   @unique
+  city                      String
+  author                    String
+  number_of_pages           Int
+  number_of_chapters        Int
+  number_of_published_books Int
 }

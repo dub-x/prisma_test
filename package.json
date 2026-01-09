@@ -9,23 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@prisma/client": "^3.9.2",
-    "antd": "^4.18.7",
-    "axios": "^0.26.0",
-    "babel-plugin-superjson-next": "^0.4.2",
-    "next": "12.1.0",
-    "prisma": "^3.9.2",
+    "@prisma/client": "^3.15.2",
+    "antd": "^4.24.16",
+    "axios": "^0.30.2",
+    "next": "^12.3.4",
+    "prisma": "^3.15.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-query": "^3.34.16",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@types/node": "17.0.18",
-    "@types/react": "17.0.39",
+    "@types/node": "^18.19.130",
+    "@types/react": "^17.0.90",
+    "@types/react-dom": "^17.0.26",
     "@types/styled-components": "^5.1.23",
-    "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0",
-    "typescript": "4.5.5"
+    "babel-plugin-superjson-next": "^0.4.5",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^15.5.9",
+    "typescript": "^4.9.5"
   }
 }
